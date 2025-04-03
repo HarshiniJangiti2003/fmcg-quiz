@@ -87,8 +87,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <circle cx="75" cy="75" r="70" fill="url(#bronze)"/>
             <path d="M60 60L50 50M65 85C72.1797 85 78 79.1797 78 72C78 64.8203 72.1797 59 65 59C57.8203 59 52 64.8203 52 72C52 79.1797 57.8203 85 65 85Z" stroke="white" stroke-width="5"/>
             <path d="M0 110H150V150H0V110Z" fill="#4285F4"/>
-            <text x="75" y="135" fill="white" font-family="Arial" font-weight="bold" text-anchor="middle">5% OFF</text>
-            <defs>
                 <linearGradient id="bronze" x1="0" y1="0" x2="1" y2="1">
                     <stop offset="0%" stop-color="#CD7F32"/>
                     <stop offset="100%" stop-color="#E6B17E"/>
@@ -98,8 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
         qualityChecker: `<svg width="160" height="140" viewBox="0 0 160 140" fill="none" xmlns="http://www.w3.org/2000/svg">
             <ellipse cx="80" cy="70" rx="70" ry="60" fill="url(#silver)"/>
             <path d="M60 70L75 85L100 60" stroke="#34A853" stroke-width="8" stroke-linecap="round"/>
-            <text x="80" y="75" fill="#6A4C93" font-family="Arial" font-weight="bold" text-anchor="middle">10% OFF</text>
-            <defs>
                 <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
                     <stop offset="0%" stop-color="#C0C0C0"/>
                     <stop offset="100%" stop-color="#F8F8F8"/>
@@ -110,8 +106,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <path d="M75 10L10 50V90L75 130L140 90V50L75 10Z" fill="url(#gold)"/>
             <path d="M75 40L85 60L105 65L90 80L95 100L75 90L55 100L60 80L45 65L65 60L75 40Z" fill="#FFD700"/>
             <path d="M30 120H120V140H30V120Z" fill="#EA4335"/>
-            <text x="75" y="130" fill="white" font-family="Arial" font-weight="bold" text-anchor="middle">15% OFF</text>
-            <defs>
                 <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
                     <stop offset="0%" stop-color="#FFD700"/>
                     <stop offset="100%" stop-color="#FFECB3"/>
@@ -125,8 +119,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <path d="M60 60H90V90H60V60Z" fill="white"/>
             <path d="M65 65H85V85H65V65Z" fill="#0F9D58"/>
             <path d="M20 115H130V140H20V115Z" fill="#2D2926"/>
-            <text x="75" y="130" fill="#FFD700" font-family="Arial" font-weight="bold" text-anchor="middle">20% OFF</text>
-            <defs>
                 <linearGradient id="diamond" x1="0" y1="0" x2="1" y2="1">
                     <stop offset="0%" stop-color="#4285F4"/>
                     <stop offset="50%" stop-color="#34A853"/>
