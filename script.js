@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Badge SVGs
     const badges = {
-        newExplorer: `<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+        ProductNovice: `<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="75" cy="75" r="70" fill="url(#bronze)"/>
             <path d="M60 60L50 50M65 85C72.1797 85 78 79.1797 78 72C78 64.8203 72.1797 59 65 59C57.8203 59 52 64.8203 52 72C52 79.1797 57.8203 85 65 85Z" stroke="white" stroke-width="5"/>
             <path d="M0 110H150V150H0V110Z" fill="#4285F4"/>
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </linearGradient>
             </defs>
         </svg>`,
-        brandGuardian: `<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+        BrandAdvocate: `<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M75 10L10 50V90L75 130L140 90V50L75 10Z" fill="url(#gold)"/>
             <path d="M75 40L85 60L105 65L90 80L95 100L75 90L55 100L60 80L45 65L65 60L75 40Z" fill="#FFD700"/>
             <path d="M30 120H120V140H30V120Z" fill="#EA4335"/>
@@ -306,16 +306,16 @@ document.addEventListener('DOMContentLoaded', () => {
         // Determine badge
         let badge, title, discount;
         if (score <= 5) {
-            badge = badges.newExplorer;
-            title = "New Explorer";
+            badge = badges.ProductNovice;
+            title = "Product Novice";
             discount = "5% discount";
         } else if (score <= 10) {
             badge = badges.qualityChecker;
             title = "Quality Checker";
             discount = "10% discount";
         } else if (score <= 15) {
-            badge = badges.brandGuardian;
-            title = "Brand Guardian";
+            badge = badges.BrandAdvocate;
+            title = "Brand Advocate";
             discount = "15% discount";
         } else {
             badge = badges.authenticityPro;
