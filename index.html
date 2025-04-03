@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Trust Challenge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-placeholder">BRAND</div>
+            <h1>Brand Trust Challenge</h1>
+            <p>Test your product knowledge and win rewards!</p>
+        </div>
+        
+        <div class="quiz-container">
+            <div class="start-screen">
+                <h2>Ready to test your brand knowledge?</h2>
+                <p>Answer 5 questions correctly to earn discounts and unlock special badges!</p>
+                <button class="btn start-btn">Start Challenge</button>
+            </div>
+            
+            <div class="quiz-screen hidden">
+                <div class="progress-container">
+                    <div class="progress-bar"></div>
+                    <div class="progress-text">Question 1 of 5</div>
+                </div>
+                <div class="question-container">
+                    <h2 class="question-text"></h2>
+                    <div class="options-container"></div>
+                </div>
+                <div class="timer-container">
+                    <div class="timer-bar"></div>
+                </div>
+            </div>
+            
+            <div class="result-screen hidden">
+                <h2>Your Results</h2>
+                <div class="score-display">
+                    You scored <span class="points">0</span>/25 points!
+                </div>
+                <div class="badge-display" id="badge-display"></div>
+                <div class="badge-title"></div>
+                <div class="discount-info"></div>
+                <button class="btn claim-btn">Claim Your Discount</button>
+                <button class="btn restart-btn">Try Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
