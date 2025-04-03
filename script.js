@@ -125,7 +125,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <path d="M55 55H95V95H55V55Z" fill="#0F9D58"/>
             <path d="M60 60H90V90H60V60Z" fill="white"/>
             <path d="M65 65H85V85H65V65Z" fill="#0F9D58"/>
-            <path d="M30 120H120V140H30V120Z" fill="#2D2926"/>
             <text x="75" y="130" fill="#FFD700" font-family="Arial" font-weight="bold" text-anchor="middle">20% OFF</text>
             <defs>
                 <linearGradient id="diamond" x1="0" y1="0" x2="1" y2="1">
@@ -136,6 +135,8 @@ document.addEventListener('DOMContentLoaded', () => {
             </defs>
         </svg>`
     };
+
+    
 
     // Product Icons (simplified for demo)
     const productIcons = [
