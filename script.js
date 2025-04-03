@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentQuestion = 0;
     let score = 0;
     let timer;
-    const questionTime = 10; // 10 seconds per question
+    const questionTime = 20; // 20 seconds per question
 
     // Badge SVGs
     const badges = {
