@@ -98,8 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
         qualityChecker: `<svg width="160" height="140" viewBox="0 0 160 140" fill="none" xmlns="http://www.w3.org/2000/svg">
             <ellipse cx="80" cy="70" rx="70" ry="60" fill="url(#silver)"/>
             <path d="M60 70L75 85L100 60" stroke="#34A853" stroke-width="8" stroke-linecap="round"/>
-            <path d="M55 50H105V90H55V50Z" fill="#6A4C93"/>
-            <text x="80" y="75" fill="white" font-family="Arial" font-weight="bold" text-anchor="middle">10% OFF</text>
+            <text x="80" y="75" fill="#6A4C93" font-family="Arial" font-weight="bold" text-anchor="middle">10% OFF</text>
             <defs>
                 <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
                     <stop offset="0%" stop-color="#C0C0C0"/>
