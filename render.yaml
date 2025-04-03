@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: fmcg-quiz
+    env: static
+    buildCommand: "echo 'No build needed for static site'"
+    staticPublishPath: "./public"
